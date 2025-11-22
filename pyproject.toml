@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling>=1.18"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hamilton-dp"
+version = "0.1.0"
+description = "DP algorithm for Hamiltonian cycle in 2-interval bipartite graphs with reporting and visualization."
+authors = [
+  { name = "Mihails Iljicevs" }
+]
+requires-python = ">=3.10"
+dependencies = [
+  "matplotlib>=3.7",
+]
+
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["algorithms", "graph-theory", "hamiltonian-cycle", "dynamic-programming", "bipartite-graphs"]
+
+[project.urls]
+Homepage = "https://github.com/ilyacartwright/hamilton-dp-bipartite"
+Repository = "https://github.com/ilyacartwright/hamilton-dp-bipartite"
+Issues = "https://github.com/ilyacartwright/hamilton-dp-bipartite/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hamilton_dp"]

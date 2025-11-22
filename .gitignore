@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.DS_Store
+*.swp
+*.swo
+
+.build/
+dist/
+build/
+*.egg-info/
+
+# virtualenvs
+.venv/
+venv/
+.env/
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
