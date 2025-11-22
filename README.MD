@@ -135,17 +135,6 @@ Automatically generated:
 
 ------------------------------------------------------------
 
-## Citation
-
-If used in research:
-
-M. Iljicevs, "Hamiltonian DP Solver for 2-Interval Bipartite Graphs (software)",  
-Zenodo, 2025. DOI: 10.5281/zenodo.xxxxxxx
-
-DOI may be added to ORCID under “Software / Other research output”.
-
-------------------------------------------------------------
-
 ## Contact
 
 Author: Mihails Iljicevs  
